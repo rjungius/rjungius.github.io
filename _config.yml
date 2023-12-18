@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
 title: ADA Template Website
-description: A template website for ADA
+description: TheDataDreamTeam GeoWiki Project
 show_downloads: True
 navigation:
-  - title: Home
+  - title: GeoWiki
     url: /
   - title: Example
     url: example
