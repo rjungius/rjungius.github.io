@@ -1,9 +1,5 @@
 theme: jekyll-theme-minimal
 title: GeoWiki
-description: TheDataDreamTeam GeoWiki Project
+# description: TheDataDreamTeam GeoWiki Project
 show_downloads: False
-navigation:
-  - title: GeoWiki
-    url: /
-  - title: Example
-    url: example
+
