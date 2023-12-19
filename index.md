@@ -3,6 +3,16 @@ layout: default
 ---
 
 # Introduction
-{% include Introduction.md %}
+{% include introduction.md %}
+
 # Initial Analysis
-{% include InitialAnalysis.md%}
+{% include initial_analysis.md %}
+
+# Naive Study
+{% include naive_study.md %}
+
+# Observational Study
+{% include observational_study.md %}
+
+# Conclusion
+{% include conclusion.md %}

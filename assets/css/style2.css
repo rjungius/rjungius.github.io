@@ -35,6 +35,15 @@ h1,h2,h3,h4 {
     text-align:center;
 }
 
+h1.hover_title{
+    margin-top: -700px;
+    margin-bottom: 650px; /* -(margin top - fontsize + offest) or sth*/
+    z-index:50;
+    font-size:100px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+             1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
 section {
     text-align: center;
     padding-top: 10px;
