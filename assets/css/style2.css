@@ -91,7 +91,7 @@ footer {
     color: white;
     margin-bottom: 0px;
     width: 100%;
-    border: 2px solid #00fff244;
+    /* border: 2px solid #00fff244; */
 
     height: 150px;
     display: flex;
@@ -104,7 +104,7 @@ p.info {
     text-align: center;
     display: block;
     
-    background: #ff0077;
+    /* background: #ff0077; */
 }
 img{
     max-width: 100%;
