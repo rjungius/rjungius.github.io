@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          const offset = -40; // Adjust this value to your preference
+          const offset = -60; // Adjust this value to your preference
 
           window.scroll({
             top: targetElement.offsetTop + offset,
