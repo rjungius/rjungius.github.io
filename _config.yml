@@ -3,3 +3,5 @@ title: GeoWiki
 # description: TheDataDreamTeam GeoWiki Project
 show_downloads: False
 
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://rjungius.github.io"
