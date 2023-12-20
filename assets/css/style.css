@@ -6,7 +6,7 @@
 body {
     font-family: Arial, sans-serif;
     /* 800px is min-fig size */
-    min-width: 800px;
+    min-width: 1000px;
     min-height: 100vh;
     /* margin: 0; */
     /* padding: 0; */
