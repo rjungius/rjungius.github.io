@@ -187,13 +187,31 @@ div.reference{
     align-items: center;
     /* border: 5px solid #ff0000; */
 }
-ol {
+.reference ol {
     margin: auto;
     padding: 0;
     text-align: left;
     /* border: 5px solid #1eff00; */
     width: fit-content;
+
+    list-style: none;
+    counter-reset: ref-counter;
 }
+
+.reference ol li::before{
+    color: #000000;
+    counter-increment: ref-counter;
+    content: "[" counter(ref-counter) "] ";
+    display: inline;
+    margin-right: 5px;
+}
+
+.reference ol li p {
+    padding: 0;
+    margin: 0; /* Remove any default margin */
+    display: inline; /* Display paragraphs inline */
+}
+
 p.content{
     text-align: justify;
     width: 80%;
