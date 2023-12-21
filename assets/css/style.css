@@ -32,6 +32,8 @@ header .navbar{
 header .navbar ul {
     list-style: none;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 header .navbar li {
@@ -162,6 +164,7 @@ p.info {
     /* background: #ff0077; */
 }
 
+
 a.footnote{
     color: #000000;
     text-decoration: none;
@@ -177,7 +180,7 @@ div.reference{
     text-align: left;
     /* border: 5px solid #1eff00; */
     width: fit-content;
-
+    
     list-style: none;
     counter-reset: ref-counter;
 }
@@ -200,13 +203,21 @@ p{
     margin-right: auto;
     margin-bottom: 10px;
     text-align: justify;
-    /* border: 5px solid #5eff00; */
+    /* border: 5px solid #48ff00; */
     width: 80%;
 }
+
 p.sup{
     font-size: 0.8em;
     vertical-align: super;
 }
-/* br{
-    margin-bottom: 5px;
+
+ul{
+    margin-left: 20%;
+    text-align: left;
+    /* border: 5px solid #1eff00; */
+}
+
+/* ul li{
+    color: #ff00ff;
 } */
