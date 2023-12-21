@@ -16,3 +16,6 @@ layout: default
 
 # Conclusion
 {% include conclusion.md %}
+
+# References
+{% include references.html %}

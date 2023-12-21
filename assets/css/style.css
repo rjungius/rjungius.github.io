@@ -59,8 +59,9 @@ header .navbar a {
 }
   
 header .navbar a:hover {
-    color: #ff5733; /* Adjust hover color as needed */
+    color: #ff5733;
 }
+
 
 h1,h2,h3,h4 {
     text-align:center;
@@ -150,8 +151,8 @@ div.modebar--hover{
 a:link {
     color: #fff;
 }
-a:hover {
-    color: #15d3d3;
+p a:hover {
+    color: #ff5733;
 }
 
 footer {
@@ -175,7 +176,31 @@ p.info {
     
     /* background: #ff0077; */
 }
-/* img{
-    max-width: 100%;
-    max-height: 100%;
-} */
+
+a.footnote{
+    color: #000000;
+    text-decoration: none;
+}
+
+div.reference{
+    color: #000000;
+    align-items: center;
+    /* border: 5px solid #ff0000; */
+}
+ol {
+    margin: auto;
+    padding: 0;
+    text-align: left;
+    /* border: 5px solid #1eff00; */
+    width: fit-content;
+}
+p.content{
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.sup{
+    font-size: 0.8em;
+    vertical-align: super;
+}
