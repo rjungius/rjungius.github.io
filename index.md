@@ -5,8 +5,11 @@ layout: default
 # Introduction
 {% include introduction.md %}
 
-# Initial Analysis
+# Geography of Wikispeedia
+
 {% include initial_analysis.md %}
+{%comment%}
+{%endcomment%}
 
 # Naive Study
 {% include naive_study.md %}
