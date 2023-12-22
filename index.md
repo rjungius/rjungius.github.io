@@ -9,7 +9,7 @@ layout: default
 
 {% include initial_analysis.md %}
 
-# Observational Study
+# Main Analysis
 {% include observational_study.md %}
 
 # Conclusion
