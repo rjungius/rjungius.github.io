@@ -12,4 +12,4 @@ It seems it does, at least in terms of the number of articles, there are many mo
 
 {% include plots/articles_count_per_category_pie.html %}
 
-We can also observe a majority of European representation in most of the categories. This makes sense, if Wikipedia has more articles geotagged in Europe and North America (NA) it is not surprising that Wikispeedia does as well… but, what about NA? Well, we should always bear in mind that Wikispeedia is an excerpt of Wikipedia that is specifically targeted around the UK National Curriculum and that we discarded all International classified articles (many of international contributions have been done by NA).
+We can also observe a majority of European representation in most of the categories. This makes sense, if Wikipedia has more articles geotagged in Europe and North America (NA) it is not surprising that Wikispeedia does as well… but, what about NA? Well, we should always bear in mind that Wikispeedia is an excerpt of Wikipedia that is specifically targeted around the UK National Curriculum and that we discarded all International classified articles (many international contributions have been made by NA).

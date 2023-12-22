@@ -46,7 +46,7 @@ Once we have defined our matching, we compute it and we check that all the confo
 
 ## Observational Study
 
-Finally we can really draw some conclusions. Let's see…
+Finally, we can draw some conclusions. Let's see…
 
 {% include plots/paths_count_observe_map.html %}
 
