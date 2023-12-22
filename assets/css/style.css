@@ -244,3 +244,40 @@ math{
 /* ul li{
     color: #ff00ff;
 } */
+
+
+.tab-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    transition: background 0.3s ease;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.tab-button.active {
+    background: #333;
+    color: #fff;
+}
+
+
+.tab-button:hover {
+    background: #ddd;
+}
+
+.tab-button.active:hover {
+    background: #646464;
+}
+
+.tab {
+    display: none;
+    padding: 10px;
+}
+
+.tab:first-child {
+    display: block;
+}
