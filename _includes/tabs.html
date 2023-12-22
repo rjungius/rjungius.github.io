@@ -6,6 +6,8 @@
         <button class="tab-button" onclick="showTab(3)">Plot 3</button>
         <button class="tab-button" onclick="showTab(4)">Plot 4</button>
         <button class="tab-button" onclick="showTab(5)">Plot 5</button>
+        <button class="tab-button" onclick="showTab(6)">Plot 6</button>
+        <button class="tab-button" onclick="showTab(7)">Plot 7</button>
     </div>
 
     <div class="tab-content">
@@ -34,10 +36,23 @@
 
         </div>
         <div id="tab5" class="tab">
+            <!-- Include the HTML file for the fourth plot -->
+            <h4>Matching Diff Target PageRank</h4>
+            {% include plots/matching_diff_start_pg.html %}
+
+        </div>
+        <div id="tab6" class="tab">
             <!-- Include the HTML file for the fifth plot -->
             <h4>Matching Diff Target Length</h4>
             {%  include plots/matching_diff_target_length.html %}
 
         </div>
+        <div id="tab7" class="tab">
+            <!-- Include the HTML file for the fifth plot -->
+            <h4>Matching Diff Target Length</h4>
+            {%  include plots/matching_diff_start_length.html %}
+
+        </div>
+        
     </div>
 </div>

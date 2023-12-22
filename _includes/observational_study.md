@@ -35,14 +35,18 @@ To perform the matching we need a similarity function between two nodes in the g
     <img src="/assets/img/equation.svg" />
 </div>
 
-And we add weights equal to this similarity to the matching. In the end, the directed acyclic graph (DAG) of our observational study looks like this:
+And we add weights equal to this similarity to the matching. In the end, the Directed Acyclic Graph (DAG) of our observational study looks like this:
 <div>
     <img src="/assets/img/DAG.jpeg" />
 </div>
 
-Once we have defined our matching, we compute it and we check that all the confounders that we considered follow the same distribution for the treating and control groups:
+Once we have defined our matching, we compute it and we check that all the confounders that we considered follow approximately the same distribution for the treating and control groups. In the following figure we will compare results before and after matching. Plots 1 and 2 correspond to the difference in the target's and start's category, plot 3 to the difference in the shortest path, plots 4 and 5 to the difference in the target's and start's PageRank and plots 6 and 7 to the difference in the target's and start's PageRank. 
 
 {% include tabs.html %}
+
+Well... these are some strange results. First, why are the categories not the same, if we are matching on them? Our dataset contains several categories for each article, we don't mean subcategories, we mean a whole different branch of category. For example, the article "Children's Crusade" is categorized in History but also Religion, makes sense right?. We matched when articles shared at least one category and this is why we have slight variations. As we can see in plot 3, this doesn't happen because there is only one unique shortest path (shortest number of steps).
+
+As of the last two pair of plots they correspond to the propensity score matching. We must recall that the propensity score of a data point represents its probability of receiving the treatment, so we don't expect an exact matching. We observe that in some cases the difference between the two matched groups becomes smaller.
 
 ## Observational Study
 
