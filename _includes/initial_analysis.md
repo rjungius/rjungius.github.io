@@ -8,7 +8,6 @@ At this point we are ready to go for a first naive analysis of the data. Does Wi
 
 It seems it does, at least in terms of the number of articles, there are many more articles classified as Europe. What about the presence of geography in the categories?
 
-
 {% include plots/articles_count_per_category_bar.html %}
 
 {% include plots/articles_count_per_category_pie.html %}
