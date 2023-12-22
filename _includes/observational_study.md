@@ -50,7 +50,7 @@ As of the last two pair of plots they correspond to the propensity score matchin
 
 ## Observational Study
 
-Finally we can really draw some conclusions. Let's see…
+Finally, we can draw some conclusions. Let's see…
 
 {% include plots/paths_count_observe_map.html %}
 
