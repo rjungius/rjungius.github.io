@@ -136,7 +136,7 @@ div.modebar--hover{
 }
 
 a:link {
-    color: #fff;
+    color: #ffffff;
 }
 p a:hover {
     color: #ff5733;
@@ -167,7 +167,7 @@ p.info {
 
 a.footnote{
     color: #000000;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 div.reference{
