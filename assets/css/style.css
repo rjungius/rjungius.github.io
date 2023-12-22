@@ -37,15 +37,15 @@ header .navbar ul {
 }
   
 header .navbar li {
-    margin-right: 20px; /* Adjust spacing between links as needed */
+    margin-right: 20px; 
 }
   
 header .navbar a {
     text-decoration: none;
-    color: #ffffff; /* Adjust link color as needed */
+    color: #ffffff;
     font-weight: bold;
-    font-size: 1.5em; /* Adjust font size as needed */
-    transition: color 0.3s ease; /* Add a smooth color transition */
+    font-size: 1.5em; 
+    transition: color 0.3s ease; 
 }
   
 header .navbar a:hover {
@@ -70,12 +70,9 @@ h3{
     font-size: 1em;
 }
 
-
 section {
     text-align: center;
     padding-top: 10px;
-    /* margin-top: 20px; */
-    /* margin-top: 90px; */
     width:80%;
     margin-left: auto;
     margin-right: auto;
@@ -83,6 +80,7 @@ section {
     /* background: #ff3333; */
     /* border: 5px solid #5eff00; */
 }
+
 /* Title section settings*/
 div.title{
     /* height: fit-content; */
@@ -126,7 +124,7 @@ div {
     border: 5px solid #90f2ff; */
 }
 
-/* Controls placement of the Plots hoverable  Control-icons*/
+/* Controls placement of the Plots hoverable Control-icons*/
 div.modebar-group{
     width:fit-content;
 }
@@ -194,10 +192,9 @@ div.reference{
 }
 
 .reference ol li p {
-    display: inline; /* Display paragraphs inline */
+    display: inline; 
 }
 
-/* p.content{ */
 p{
     margin-left:auto;
     margin-right: auto;
