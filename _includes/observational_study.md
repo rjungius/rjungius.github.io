@@ -32,7 +32,7 @@ Again we ask ourselves, is it enough? As this is a fairly large dataset, we want
 To perform the matching we need a similarity function between two nodes in the graph. Based on the exercises seen in the course, we compute it as:
 
 <div>
-    <img src="/assets/img/equation.png" />
+    <img src="/assets/img/equation.svg" />
 </div>
 
 And we add weights equal to this similarity to the matching. In the end, the directed acyclic graph of our observational study looks like this.
