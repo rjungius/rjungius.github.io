@@ -47,7 +47,7 @@ header .navbar a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 1.5em; 
+    font-size: 1em; 
     transition: color 0.3s ease; 
 }
   
@@ -102,7 +102,7 @@ h1.hover_title{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:50;
-    font-size:80px;
+    font-size:70px;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
     1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
