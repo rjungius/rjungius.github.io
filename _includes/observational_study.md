@@ -10,7 +10,7 @@ Wow, that is a big difference! Almost all of the other continents have to sum up
 
 While looking at the percentage of paths that are European and finished is quite interesting, we would also like to understand how people play and if they are more likely to be successful if the target article is from Europe. To study this, we computed a statistical t-test with the null hypothesis that the percentage of finished paths for Europe is the same as the rest of the continents.
 
-We compute the statistical t-test between the two groups and… bingo! We get a p-value of 0.032 which is lower than 0.05. Therefore, if a path finishes in a European target article, it is more likely to be successful.
+We compute the statistical t-test between the two groups and… bingo! We get a p-value of 0.032 which is lower than 0.05. Therefore, we can say with a 5% of significance level that if a path finishes in a European target article, it is more likely to be successful.
 
 {% include plots/paths_count_naive_map.html %}
 
@@ -50,8 +50,8 @@ As of the last two pair of plots they correspond to the propensity score matchin
 
 ## Observational Study
 
-Finally, we can draw some conclusions. Let's see…
+Finally, we can draw some conclusions. We perform the same statistical as before, that is the null hypothesis being the percentage of finished paths for Europe is the same as the rest of the continents. Let's see what we obtain…
 
 {% include plots/paths_count_observe_map.html %}
 
-There is no significance?! As we always say, no results are results. After performing matching we were able to balance the dataset so the results obtained were more trustful, and they show no significance, even if before it appeared to be. This shows that what can be perceived in a well-named naive analysis is not a picture of reality but further analysis is needed.
+There is no significance?! We get a p-value of 0.857 which is higher than 0.05. Therefore, we cannot say with a significance level of 5% that if a path finishes in a European target article it is more likely to be successful. However, we are not upset, as we always say, no results are results. After performing matching we were able to balance the dataset so the results obtained were more trustful, and they show no significance, even if before it appeared to be. This shows that what can be perceived in a well-named naive analysis is not a picture of reality but further analysis is needed.
