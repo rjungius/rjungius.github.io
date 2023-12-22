@@ -31,4 +31,12 @@ To perform the matching we need a similarity function between two nodes in the g
 
 <math>similarity(x,y) = 1 - |propensity_score(x) - propensity_score(y)|</math>
 
-And we add weights equal to this similarity to the matching.
+And we add weights equal to this similarity to the matching. In the end, the directed acyclic graph of our observational study looks like this.
+<div>
+    <img src="/assets/img/DAG.jpeg" />
+</div>
+
+In addition to the confounders considered in this analysis, there may be more factors that we are not controlling and may bias our analysis. One of these factors could be the participant as not all people who play Wikispeedia have the same knowledge about all categories. 
+By not controlling this confounder, we could have two different participants with different knowledge, one in the treatment group and one in the control group. In this case, we would be controlling all the confounders mentioned before but the result will be biased as one of the participants would do better not because of the continent of the target article but because of its knowledge about that specific category.
+
+Another confounder that can bias our analysis is the date on which each path was played. The world changes very quickly and people are often more aware of events that happened recently. This is why a participant who played the game in 2008 can play very differently than one who played in 2012 as their focus is on different events. Our dataset contained date information, the problem is that from 2008 to 2011 only the completed paths were included, so our analysis would either be too biased or too incomplete. Therefore, we decided to not include it in the matching.
