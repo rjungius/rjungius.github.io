@@ -31,6 +31,8 @@ header .navbar{
 }
 
 header .navbar ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
     list-style: none;
     display: flex;
     margin-left: auto;
@@ -157,6 +159,7 @@ footer {
 
 p.info {
     padding: 1em;
+    padding-bottom: 0px;
     text-align: center;
     display: block;
     margin-bottom: 0px;
@@ -200,7 +203,8 @@ div.reference{
 p{
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
     
     text-align: justify;
     line-height: 32px;
@@ -216,10 +220,22 @@ p.sup{
 
 ul{
     margin-left: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: left;
     /* border: 5px solid #1eff00; */
 }
+li{
+    margin-bottom: 5px;
+}
 
+math{
+    font-size:25px;
+    /* font-style: italic; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
 /* ul li{
     color: #ff00ff;
 } */
