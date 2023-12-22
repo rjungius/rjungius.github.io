@@ -9,11 +9,6 @@ layout: default
 
 {% include initial_analysis.md %}
 
-{% comment %}
-# Naive Study
-{% include naive_study.md %}
-{% endcomment %}
-
 # Observational Study
 {% include observational_study.md %}
 
