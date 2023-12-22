@@ -40,7 +40,7 @@ And we add weights equal to this similarity to the matching. In the end, the Dir
     <img src="/assets/img/DAG.jpeg" />
 </div>
 
-Once we have defined our matching, we compute it and we check that all the confounders that we considered follow approximately the same distribution for the treating and control groups. In the following figure we will compare results before and after matching. Plots 1 and 2 correspond to the difference in the target's and start's category, plot 3 to the difference in the shortest path, plots 4 and 5 to the difference in the target's and start's PageRank and plots 6 and 7 to the difference in the target's and start's PageRank. 
+Once we have defined our matching, we compute it and we check that all the confounders that we considered follow approximately the same distribution for the treating and control groups. In the following figure we will compare results before and after matching. Plots 1 and 2 correspond to the difference in the target's and start's category, plot 3 to the difference in the shortest path, plots 4 and 5 to the difference in the target's and start's PageRank and plots 6 and 7 to the difference in the target's and start's length. 
 
 {% include tabs.html %}
 
